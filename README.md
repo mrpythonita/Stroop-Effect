@@ -13,7 +13,7 @@ is greater than the time to say "RED" in response to the word 'Mouse'.</p>
 
 <li>What is an appropriate set of hypotheses for this task? Specify the null and alternative hypotheses based on what you think the researchers might be interested in. Justify your choices.</li>
 
-<li>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.<li>
+<li>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</li>
 
 <li>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</li>
 
