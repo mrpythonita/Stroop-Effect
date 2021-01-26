@@ -1,20 +1,43 @@
-# Stroop-Effect
-<h2>Testing a perceptual phenomenon</h2>
+# Project: Stroop Effect with Python
+-------------------------
+## Introduction 
 
-<p>In psychology, the Stroop effect is a demonstration of interference in the reaction time of a task; it is
-named after John Ridley Stroop, who first documneted the effect in 1935. In specific, naming the
-font color of a printed word is an easier and quicker task if word meaning and font color are
-congruent. If both are printed in red, the average time to say "RED" in response to the word 'Green'
-is greater than the time to say "RED" in response to the word 'Mouse'.</p>
+In psychology, the Stroop effect is a demonstration of interference in the reaction time of a task; it is named after John Ridley Stroop, who first documneted the effect in 1935. In specific, naming the font color of a printed word is an easier and quicker task if word meaning and font color are congruent. If both are printed in red, the average time to say "RED" in response to the word 'Green' is greater than the time to say "RED" in response to the word 'Mouse'.
 
-<h2>project Questions n</h2>
-<ul>
-  <li>What is our independent variable? What is our dependent variable?</li>
+## Getting Started
 
-<li>What is an appropriate set of hypotheses for this task? Specify the null and alternative hypotheses based on what you think the researchers might be interested in. Justify your choices.</li>
+There is one data-set avalilabe for this project and it is a csv file (stroppdata.csv). This project is comprised of different tasks:
 
-<li>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</li>
+* __Defining Variables__
+* __Generating Descriptive Statistics__
+* __Understanding Data with Data Visualizations__
+* __Conducting Hypothesis Testing__
+* __Statistical Analysis & Conclusion__
 
-<li>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</li>
+## Prerequisites
 
-<li>Now, perform the statistical test and report your results. What is your confidence level or Type I error associated with your test? What is your conclusion regarding the hypotheses you set up? Did the results match up with your expectations? Hint: Think about what is being measured on each individual, and what statistic best captures how an individual reacts in each environment.</li></ul>
+Python 3 is the environment utilized with the addition of the following libraries:
+
+* __jupyter__ (+ dependencies) 
+
+## Installing
+
+```
+import pandas as pd
+import numpy as np
+import scipy.stats as stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+import math
+data = pd.read_csv('stroopdata.csv')
+
+```
+
+## Deployment
+
+* **ProjectPerceptualPhenomenon.ipynb**: Jupyter Notebook for creating/testing the core logic implemented in this project.
+
+## _Acknowledgments_
+
+* Chapeau to StackOverflow, GitHub, and Udacity Knowledge platforms for providing some guidance code.
+
